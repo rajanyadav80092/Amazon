@@ -1,0 +1,447 @@
+*body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer1{
+    height: 70px;
+    width:100%;
+    background-color: black;
+    border:5px solid transparent;
+    border-radius: 5px;
+    margin-top: 0%;
+    transition: border-color 0.5s ease;
+    display: flex;
+    justify-content: space-around;
+    color:aliceblue;
+    
+}
+
+#f1a{
+    height: 70px;
+    width:138px;
+    border: 1px solid transparent;
+    position: absolute;
+    margin:0px 0px 1px 0px;
+    padding: 0px 0px 0px 0px;
+    left: 2px;
+    
+
+}
+
+a img{
+    height:70px;
+    width:138px;
+    margin:0px 3px 15px 0px;
+    padding: 0px 10px 5px 0px;
+    position: absolute;
+    left: 2px;
+}
+#f1b a{
+    height: 50px;
+    width:160px;
+    position: absolute;
+    left: 140px;
+    align-items: center;
+    border: 1px solid white;
+    text-decoration: none;
+    margin:5px 5px 5px 5px;
+    padding: 10px 2px 1px 2px;
+    color:white;
+    
+
+}
+.search{
+    height: 48px;
+    width: 840px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 4px solid salmon;
+    background-color:white;
+    position: absolute;
+    border-radius: 5px;
+    left: 310px;
+    margin:10px 2px 2px 0px;
+}
+.parent{
+    height: 48px;
+    width:48px;
+    border: 2px solid black;
+    position: absolute;
+    left:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+       text-decoration: none;
+       
+    }
+#f1c2 {
+    height: 48px;
+    width: 742px;
+    position: absolute;
+    left:51px; 
+    margin:0px 0px 0px 0px; 
+}
+#f1c2 input{
+    height: 44px;
+    width:740px;
+    font-size: 1.2rem;
+
+}
+
+.f1c3  { 
+    height: 48px;
+    width:46px;
+    position: absolute;
+    right:0px ;
+    margin: 0px 0px 0px 0px;
+    
+}
+.f1c3 button{
+    height: 48px;
+    width:46px;
+    position: absolute;
+    right:0px ;
+    
+
+}
+
+#f1c3 img{
+    height: 48px;
+    width:46px;
+    border:4px solid black;
+    border-radius: 8px;
+    position: absolute;
+    right:0px;
+    top:-1px;
+  
+   
+}
+
+#f1d a{
+    height: 50px;
+    width:110px;
+    color: white;
+    border-radius: 3px;
+    position: absolute;
+    right: 190px;
+    border:1px solid white;
+    margin:0px 0px 0px 0px;
+    padding: 9.5px 0px 9.5px 50px;
+    text-decoration: none;
+    
+}
+#f1e a{
+    height: 30px;
+    width:70px;
+    color:white;
+    position: absolute;
+    border:1px solid white;
+    right:80px;
+    margin:0px 0px 0px 0px;
+    padding: 19.5px 20px 19.5px 20px;
+    text-decoration: none;
+}
+#f1f a{
+    height: 50px;
+    width:50px;
+    position: absolute;
+    text-decoration: none;
+    right: 0px;
+    margin:0px 0px 0px 0px;
+    padding: 14px 19px 5px 10px;
+    color:white;
+    border:1px solid wheat;
+   
+}
+#page{
+    height: 400px;
+    width:98%;
+    border:2px solid black;
+
+
+}
+#pagem1{
+    height: 400px;
+    width:98%;
+
+}
+#bankpage{
+    height: 100px;
+    width: 100vw;
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#bankimage{
+    height: 100px;
+    width:102vw;
+}
+
+
+.mainc{
+    height: 300px;
+    width: 98%;
+    border:2px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#mainc1{
+    height:296px;
+    width:370px;
+    border:2px solid black;
+    background-color: antiquewhite;
+}
+#mainc2{
+    height:296px;
+   
+    width:370;
+    border:2px solid black;
+    background-color: antiquewhite;
+}
+#mainc3{
+    height:296px;
+    width:370px;
+    border:2px solid black;
+    background-color: antiquewhite;
+}
+#mainc4{
+    height:296px;
+    width:365px;
+    border:2px solid black;
+    background-color: antiquewhite;
+}
+#img1{
+    height:296px;
+    width:350px;
+    margin:0px 3px 15px 0px;
+    padding: 0px 10px 5px 0px;
+    position: absolute;
+    left: 0px;
+}
+#img2{
+    height:296px;
+    width:350px;
+    margin:0px 3px 15px 0px;
+    padding: 0px 10px 5px 0px;
+    position: absolute;
+    left: 360px;
+}
+#img3{
+    height:296px;
+    width: 350px;;
+    margin:0px 3px 15px 0px;
+    padding: 0px 10px 5px 0px;
+    position: absolute;
+    left:720px;
+}
+#img4{
+    height:296px;
+    width:360px;
+    margin:0px 3px 15px 0px;
+    padding: 0px 10px 5px 0px;
+    position: absolute;
+    left: 1080px;
+}
+.mainc img:hover{
+    transition: 0.5s ease;
+    transform: scale(1.18);
+}
+.footer2{
+    height: 46px;
+    width:100%;
+    border:1px solid black;
+    border-radius: 5px;
+    background-color: darkslategrey;
+    margin-top: 0.00001px;
+    display:flex;
+    justify-content: space-around;
+    color:aliceblue;
+    align-items: center;
+
+}
+#f2a {
+    height: 45px;
+    width:48px;
+    border: 1px solid red;
+    position: absolute;
+    left:7px;
+    top: 88px;
+    margin:0px 0px 1px 0px;
+    display: grid;
+    place-items: center;
+       
+}
+#f2a a {
+    text-decoration: none;
+    color:aliceblue;
+}
+#f2b a{
+    height: 28px;
+    width:40px;
+    text-decoration: none;
+    color:aliceblue;
+    border: 1px solid white;
+    position: absolute;
+    left:55px;
+    top: 84px;
+    margin:2px 0px 1px 2px;
+    padding:15px 10px 5px 20px;
+}
+
+#f2c a{
+    height: 28px;
+    width:30px;
+    text-decoration: none;
+    color:aliceblue;
+    border: 1px solid white;
+    position: absolute;
+    left:127px;
+    top: 84px;
+    margin:2px 0px 1px 2px;
+    padding:15px 10px 5px 20px;
+}
+ #f2d a{
+    height: 28px;
+    width:80px;
+    text-decoration: none;
+    color:aliceblue;
+    border: 1px solid black;
+    position: absolute;
+    left:190px;
+    top: 84px;
+    margin:2px 0px 1px 2px;
+    padding:15px 10px 5px 20px;
+}
+#f2e a{
+    height: 30px;
+    width:50px;
+    text-decoration: none;
+    color:aliceblue;
+    border: 1px solid white;
+    position: absolute;
+    left:300px;
+    top: 84px;
+    margin:2px 0px 1px 2px;
+    padding:10px 10px 10px 20px;
+}
+#f2f a{
+    height: 30px;
+    width:80px;
+    text-decoration: none;
+    color:aliceblue;
+    border: 1px solid black;
+    position: absolute;
+    left:379px;
+    top: 84px;
+    margin:2px 0px 1px 2px;
+    padding:10px 10px 10px 20px;
+}
+#f2g a{
+    height: 30px;
+    width:80px;
+    text-decoration: none;
+    color:aliceblue;
+    border: 1px solid white;
+    position: absolute;
+    left:489px;
+    top: 84px;
+    margin:2px 0px 1px 2px;
+    padding:10px 10px 10px 20px;
+}
+ #f2h a{ 
+     height: 30px;
+    width:50px;
+    text-decoration: none;
+    color:aliceblue;
+    border: 1px solid black;
+    position: absolute;
+    left:599px;
+    top: 84px; 
+    margin:2px 0px 1px 2px;
+    padding:10px 10px 10px 20px;
+} 
+ #f2i a{
+    height: 30px;
+    width:50px;
+    text-decoration: none;
+    color:aliceblue;
+    border: 1px solid black;
+    position: absolute;
+    left:680px;
+    top: 84px;
+    margin:2px 0px 1px 2px;
+    padding:10px 10px 10px 20px;
+}
+#f2j a{
+    height: 30px;
+    width:50px;
+    text-decoration: none;
+    color:aliceblue;
+    border: 1px solid black;
+    position: absolute;
+    left:760px;
+    top: 84px;
+    margin:2px 0px 1px 2px;
+    padding:10px 10px 10px 20px;
+}
+#f2k a{
+    height: 30px;
+    width:80px;
+    text-decoration: none;
+    color:aliceblue;
+    border: 1px solid black;
+    position: absolute;
+    left:840px;
+    top: 84px;
+    margin:2px 0px 1px 2px;
+    padding:10px 10px 10px 20px;
+}
+#f2l a{
+    height: 30px;
+    width:50px;
+    text-decoration: none;
+    color:aliceblue;
+    border: 1px solid black;
+    position: absolute;
+    left:950px;
+    top: 84px;
+    margin:2px 0px 1px 2px;
+    padding:10px 10px 10px 20px;
+}
+#f2m a{
+    height: 30px;
+    width:80px;
+    text-decoration: none;
+    color:aliceblue;
+    border: 1px solid black;
+    position: absolute;
+    left:1030px;
+    top: 84px;
+    margin:2px 0px 1px 2px;
+    padding:10px 10px 10px 20px;
+} 
+.abc{
+    height: 45px;
+    width: 365px;
+    position: absolute;
+    left:1141px;
+    border-color: red;
+    margin: 0px 0px 1px 0px;
+}
+#f2n {
+    height: 45px;
+    width: 365px;
+    background-image: url("/festival.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
